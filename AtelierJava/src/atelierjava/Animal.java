@@ -10,9 +10,16 @@ package atelierjava;
  * @author renob
  */
 public class Animal {
+    static int nbAnimaux = 0;
+    
     String genre;
     String espece;
 //    Animal Parent;
     int tailleEnCm;
     double poidsEnKg;
+    
+    
+    public Animal() {
+        nbAnimaux++;
+    }
 }

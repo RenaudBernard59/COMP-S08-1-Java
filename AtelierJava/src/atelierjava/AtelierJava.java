@@ -15,8 +15,8 @@ public class AtelierJava {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Animal cochon = new Animal();
-        Animal cochon = null;
+       Animal cochon = new Animal();
+//        Animal cochon = null;
         System.out.println(cochon);
     }
     
