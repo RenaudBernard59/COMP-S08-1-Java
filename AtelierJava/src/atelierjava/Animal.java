@@ -3,22 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-public class AtelierJava {
+package atelierjava;
 
 /**
  *
  * @author renob
  */
-public static void main(String[] args) {
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-}}
+public class Animal {
+    String genre;
+    String espece;
+//    Animal Parent;
+    int tailleEnCm;
+    double poidsEnKg;
+}
