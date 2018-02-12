@@ -18,6 +18,15 @@ public class AtelierJava {
        Animal cochon = new Animal();
 //        Animal cochon = null;
         System.out.println(cochon);
+        
+        Animal cochon2 = new Animal();
+        Animal girafe = new Animal();
+        
+        cochon2.poidsEnKg = 12;
+        girafe.poidsEnKg = 15;
+        
+        System.out.println(cochon2);
+        System.out.println(girafe);
     }
     
     
