@@ -18,11 +18,11 @@ public class PersoMain {
          Personne perso4 = new Personne();
 
          System.out.println(
-          "START" +
+          "START\n" +
          "| Nom : "+perso1.getNom()+" | Age : "+perso1.getAge()+" ans|\n" +
          "| Nom : "+perso2.getNom()+" | Age : "+perso2.getAge()+" ans|\n" +
          "| Nom : "+perso3.getNom()+" | Age : "+perso3.getAge()+" ans|\n" +
-         "| Nom : "+perso3.getNom()+" | Age : "+perso3.getAge()+" ans|\n" +
+         "| Nom : "+perso4.getNom()+" | Age : "+perso3.getAge()+" ans|\n" +
           "END"
          );
      }/*END mainObject*/
