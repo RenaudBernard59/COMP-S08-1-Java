@@ -22,11 +22,18 @@ public class AtelierJava {
         Animal cochon2 = new Animal();
         Animal girafe = new Animal();
         
+        cochon2.espece = "Cochon";
+        girafe.espece = "Girafe";
         cochon2.poidsEnKg = 12;
         girafe.poidsEnKg = 15;
         
-        System.out.println(cochon2);
-        System.out.println(girafe);
+        System.out.println(
+        cochon.espece + " | " + cochon.poidsEnKg + "kg | \n" +
+        cochon2.espece + " | " + cochon2.poidsEnKg + "kg | \n" +
+        girafe.espece + " | " + girafe.poidsEnKg + "kg | \n" + "END"
+        
+        );
+        
     }
     
     
