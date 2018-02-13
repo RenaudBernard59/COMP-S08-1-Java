@@ -36,11 +36,7 @@ public class Fermier {
 
     @Override
     public String toString() {
-        return super.toString(
-        "Le fermier se nommant " + this.getPrenom() + " " +
-        this.getNom() + " a comme spécialité : " + 
-        this.getSpecialite() + ".\n"
-        );
+        return "Le fermier se nommant " + this.getPrenom() + " " + this.getNom() + " a comme spécialité : " + this.getSpecialite() + ".\n";
     }
     
     
