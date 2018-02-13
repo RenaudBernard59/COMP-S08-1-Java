@@ -2,8 +2,7 @@ package atelierjava;
  
 public class LaFermeMain {
     public static void main(String[] args) {
-        
-        
+         
         Fermier farmer1 = new Fermier();
         farmer1.setNom("Robert");
         farmer1.setPrenom("Regis");
