@@ -29,9 +29,7 @@ public class AtelierJava {
         
         cochon2.afficher();
         
-        
-        
-        
+    
         
         
         
