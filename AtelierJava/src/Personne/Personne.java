@@ -14,7 +14,8 @@ public class Personne {
     //Définition des Attributs
     private String nom;
     private int age;
-    
+    static private int ageMini = 0;
+    static private int ageMaxi = 0;
     
     //==================================================
     //Constructeur génral
@@ -33,21 +34,33 @@ public class Personne {
     
     //==================================================
     //Accesseur GETTER
-    public String getNom() {
-        return nom;
-    }
-    
-    public int getAge() {
-        return age;
-    }
+    public String getNom() {return nom;}
+    public int getAge() {return age;}
+    public static int getAgeMini() {return ageMini;}
+    public static int getAgeMaxi() {return ageMaxi;}
     
     //==================================================
     //Muttatteurs SETTER
-    public void setNom(String inputNom) {
-        nom = inputNom;
-    }
-    
+    public void setNom(String inputNom) {nom = inputNom;}
     public void setAge(int inputAge) {
         age = inputAge;
-    }    
+        //MAJ ageMaxi
+        if (age > Personne.ageMaxi) {
+            Personne.ageMaxi = age;
+        }
+        //MAJ ageMini
+        if (Personne.ageMini == 0) {
+            Personne.ageMini = age;
+        }
+        if (age < Personne.ageMini) {
+            Personne.ageMini = age;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
 }/*END class Personne*/
