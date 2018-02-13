@@ -27,12 +27,21 @@ public class AtelierJava {
         cochon2.poidsEnKg = 12;
         girafe.poidsEnKg = 15;
         
+        cochon2.afficher();
+        
+        
+        
+        
+        
+        
+        
+        /*
         System.out.println(
         cochon.espece + " | " + cochon.poidsEnKg + "kg | \n" +
         cochon2.espece + " | " + cochon2.poidsEnKg + "kg | \n" +
         girafe.espece + " | " + girafe.poidsEnKg + "kg | \n" + "END"
         
-        );
+        );*/
         
     }
     

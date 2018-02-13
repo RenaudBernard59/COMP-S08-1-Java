@@ -18,6 +18,15 @@ public class Animal {
     int tailleEnCm;
     double poidsEnKg;
     
+    public void afficher() {
+        System.out.println(
+        this.espece+ ", " +
+        this.poidsEnKg + ", " +
+        this.genre + ", " +
+        this.tailleEnCm + "." 
+        );
+    }
+       
     
     public Animal() {
         nbAnimaux++;
