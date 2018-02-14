@@ -62,7 +62,7 @@
 			CodeGeneration
 		</plugin>
 </profile>
-<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Wed Feb 14 12:08:46 CET 2018'>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Wed Feb 14 12:19:33 CET 2018'>
   <XMI.header>    <XMI.documentation>
       <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
       <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
@@ -108,6 +108,9 @@
                 </UML:ActionState>
                 <UML:ActionState xmi.id = '10-10-1-60-68a6cde4:16193c6d885:-8000:000000000000086C'
                   isSpecification = 'false' isDynamic = 'false'>
+                  <UML:ModelElement.comment>
+                    <UML:Comment xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008D6'/>
+                  </UML:ModelElement.comment>
                   <UML:StateVertex.outgoing>
                     <UML:Transition xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:0000000000000884'/>
                   </UML:StateVertex.outgoing>
@@ -146,6 +149,9 @@
                 </UML:ActionState>
                 <UML:ActionState xmi.id = '10-10-1-60-68a6cde4:16193c6d885:-8000:0000000000000877'
                   isSpecification = 'false' isDynamic = 'false'>
+                  <UML:ModelElement.comment>
+                    <UML:Comment xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008D8'/>
+                  </UML:ModelElement.comment>
                   <UML:StateVertex.outgoing>
                     <UML:Transition xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:0000000000000886'/>
                   </UML:StateVertex.outgoing>
@@ -183,6 +189,9 @@
                 </UML:ActionState>
                 <UML:Pseudostate xmi.id = '10-10-1-60-68a6cde4:16193c6d885:-8000:000000000000087C'
                   isSpecification = 'false' kind = 'junction'>
+                  <UML:ModelElement.comment>
+                    <UML:Comment xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008DA'/>
+                  </UML:ModelElement.comment>
                   <UML:StateVertex.outgoing>
                     <UML:Transition xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:0000000000000887'/>
                     <UML:Transition xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008D4'/>
@@ -248,6 +257,9 @@
                 </UML:ActionState>
                 <UML:Pseudostate xmi.id = '10-10-1-60-68a6cde4:16193c6d885:-8000:0000000000000892'
                   isSpecification = 'false' kind = 'junction'>
+                  <UML:ModelElement.comment>
+                    <UML:Comment xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008DB'/>
+                  </UML:ModelElement.comment>
                   <UML:StateVertex.outgoing>
                     <UML:Transition xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008A0'/>
                     <UML:Transition xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008A4'/>
@@ -294,6 +306,9 @@
                 </UML:ActionState>
                 <UML:Pseudostate xmi.id = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008A6'
                   isSpecification = 'false' kind = 'junction'>
+                  <UML:ModelElement.comment>
+                    <UML:Comment xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008DC'/>
+                  </UML:ModelElement.comment>
                   <UML:StateVertex.outgoing>
                     <UML:Transition xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008B5'/>
                     <UML:Transition xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008CE'/>
@@ -596,6 +611,36 @@
             </UML:Transition>
           </UML:StateMachine.transitions>
         </UML:ActivityGraph>
+        <UML:Comment xmi.id = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008D6'
+          isSpecification = 'false' body = 'While i'>
+          <UML:Comment.annotatedElement>
+            <UML:ActionState xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:000000000000086C'/>
+          </UML:Comment.annotatedElement>
+        </UML:Comment>
+        <UML:Comment xmi.id = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008D8'
+          isSpecification = 'false' body = 'While j'>
+          <UML:Comment.annotatedElement>
+            <UML:ActionState xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:0000000000000877'/>
+          </UML:Comment.annotatedElement>
+        </UML:Comment>
+        <UML:Comment xmi.id = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008DA'
+          isSpecification = 'false' body = 'Else 1'>
+          <UML:Comment.annotatedElement>
+            <UML:Pseudostate xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:000000000000087C'/>
+          </UML:Comment.annotatedElement>
+        </UML:Comment>
+        <UML:Comment xmi.id = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008DB'
+          isSpecification = 'false' body = 'Else 2'>
+          <UML:Comment.annotatedElement>
+            <UML:Pseudostate xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:0000000000000892'/>
+          </UML:Comment.annotatedElement>
+        </UML:Comment>
+        <UML:Comment xmi.id = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008DC'
+          isSpecification = 'false' body = 'Else 3'>
+          <UML:Comment.annotatedElement>
+            <UML:Pseudostate xmi.idref = '10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008A6'/>
+          </UML:Comment.annotatedElement>
+        </UML:Comment>
       </UML:Namespace.ownedElement>
     </UML:Model>
   </XMI.content>
@@ -1803,7 +1848,7 @@ Peutêtre Premier</text>
     </path>
   </group>
   <group name="Fig25"
-       description="org.argouml.uml.diagram.state.ui.FigJunctionState[152, 320, 32, 32]pathVisible=false;stereotypeView=0;"
+       description="org.argouml.uml.diagram.state.ui.FigJunctionState[160, 320, 32, 32]pathVisible=false;stereotypeView=0;"
        href="10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008A6"
        fill="1"
        fillcolor="white"
@@ -1814,7 +1859,7 @@ Peutêtre Premier</text>
     </private>
     
     <rectangle name="Fig25.0"
-      x="152"
+      x="160"
       y="320"
       width="32"
       height="32"
@@ -1824,7 +1869,7 @@ Peutêtre Premier</text>
       strokecolor="255 0 255"
     />
     <rectangle name="Fig25.1"
-      x="152"
+      x="160"
       y="320"
       width="32"
       height="32"
@@ -2034,9 +2079,9 @@ Peutêtre Premier</text>
       stroke="1"
       strokecolor="black"
     >
-      <moveto x="168"
+      <moveto x="176"
               y="393" />
-      <lineto x="168"
+      <lineto x="176"
               y="352" />
     </path>
   </group>
@@ -2138,9 +2183,9 @@ SAVE</text>
       stroke="1"
       strokecolor="black"
     >
-      <moveto x="168"
+      <moveto x="176"
               y="320" />
-      <lineto x="168"
+      <lineto x="176"
               y="290" />
     </path>
   </group>
@@ -2406,7 +2451,7 @@ SAVE</text>
       stroke="1"
       strokecolor="black"
     >
-      <moveto x="184"
+      <moveto x="192"
               y="336" />
       <lineto x="249"
               y="336" />
@@ -2503,6 +2548,606 @@ SAVE</text>
               y="448" />
       <lineto x="440"
               y="513" />
+    </path>
+  </group>
+  <group name="Fig41"
+       description="org.argouml.uml.diagram.static_structure.ui.FigComment[568, 176, 79, 59]pathVisible=false;stereotypeView=0;"
+       href="10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008D6"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig41.0"
+      x="568"
+      y="176"
+      width="79"
+      height="59"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <path name="Fig41.1"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="568"
+              y="176" />
+      <lineto x="636"
+              y="176" />
+      <lineto x="646"
+              y="186" />
+      <lineto x="646"
+              y="234" />
+      <lineto x="568"
+              y="234" />
+      <lineto x="568"
+              y="176" />
+    </path>
+    <path name="Fig41.2"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="178 178 178"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="636"
+              y="176" />
+      <lineto x="646"
+              y="186" />
+      <lineto x="636"
+              y="186" />
+      <lineto x="636"
+              y="176" />
+    </path>
+    <group name="Fig41.3"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[570, 178, 65, 0]"
+         href="10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008D6"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig41.3.0"
+        x="570"
+        y="178"
+        width="65"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig41.4"
+      x="570"
+      y="178"
+      width="65"
+      height="55"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Left"
+    >While i</text>
+  </group>
+  <group name="Fig42"
+       description="org.argouml.uml.diagram.static_structure.ui.FigEdgeNote"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+      sourcePortFig="Fig41"
+      destPortFig="Fig2"
+      sourceFigNode="Fig41"
+      destFigNode="Fig2"
+    </private>
+    <path name="Fig42.0"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="568"
+              y="194" />
+      <lineto x="494"
+              y="194" />
+    </path>
+  </group>
+  <group name="Fig43"
+       description="org.argouml.uml.diagram.static_structure.ui.FigComment[576, 312, 79, 59]pathVisible=false;stereotypeView=0;"
+       href="10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008D8"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig43.0"
+      x="576"
+      y="312"
+      width="79"
+      height="59"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <path name="Fig43.1"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="576"
+              y="312" />
+      <lineto x="644"
+              y="312" />
+      <lineto x="654"
+              y="322" />
+      <lineto x="654"
+              y="370" />
+      <lineto x="576"
+              y="370" />
+      <lineto x="576"
+              y="312" />
+    </path>
+    <path name="Fig43.2"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="178 178 178"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="644"
+              y="312" />
+      <lineto x="654"
+              y="322" />
+      <lineto x="644"
+              y="322" />
+      <lineto x="644"
+              y="312" />
+    </path>
+    <group name="Fig43.3"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[578, 314, 65, 0]"
+         href="10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008D8"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig43.3.0"
+        x="578"
+        y="314"
+        width="65"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig43.4"
+      x="578"
+      y="314"
+      width="65"
+      height="55"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Left"
+    >While j</text>
+  </group>
+  <group name="Fig44"
+       description="org.argouml.uml.diagram.static_structure.ui.FigEdgeNote"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+      sourcePortFig="Fig43"
+      destPortFig="Fig4"
+      sourceFigNode="Fig43"
+      destFigNode="Fig4"
+    </private>
+    <path name="Fig44.0"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="576"
+              y="322" />
+      <lineto x="494"
+              y="322" />
+    </path>
+  </group>
+  <group name="Fig45"
+       description="org.argouml.uml.diagram.static_structure.ui.FigComment[544, 432, 79, 59]pathVisible=false;stereotypeView=0;"
+       href="10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008DA"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig45.0"
+      x="544"
+      y="432"
+      width="79"
+      height="59"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <path name="Fig45.1"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="544"
+              y="432" />
+      <lineto x="612"
+              y="432" />
+      <lineto x="622"
+              y="442" />
+      <lineto x="622"
+              y="490" />
+      <lineto x="544"
+              y="490" />
+      <lineto x="544"
+              y="432" />
+    </path>
+    <path name="Fig45.2"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="178 178 178"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="612"
+              y="432" />
+      <lineto x="622"
+              y="442" />
+      <lineto x="612"
+              y="442" />
+      <lineto x="612"
+              y="432" />
+    </path>
+    <group name="Fig45.3"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[546, 434, 65, 0]"
+         href="10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008DA"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig45.3.0"
+        x="546"
+        y="434"
+        width="65"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig45.4"
+      x="546"
+      y="434"
+      width="65"
+      height="55"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Left"
+    >Else 1</text>
+  </group>
+  <group name="Fig46"
+       description="org.argouml.uml.diagram.static_structure.ui.FigEdgeNote"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+      sourcePortFig="Fig45"
+      destPortFig="Fig6"
+      sourceFigNode="Fig45"
+      destFigNode="Fig6"
+    </private>
+    <path name="Fig46.0"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="544"
+              y="432" />
+      <lineto x="456"
+              y="432" />
+    </path>
+  </group>
+  <group name="Fig47"
+       description="org.argouml.uml.diagram.static_structure.ui.FigComment[544, 720, 79, 59]pathVisible=false;stereotypeView=0;"
+       href="10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008DB"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig47.0"
+      x="544"
+      y="720"
+      width="79"
+      height="59"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <path name="Fig47.1"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="544"
+              y="720" />
+      <lineto x="612"
+              y="720" />
+      <lineto x="622"
+              y="730" />
+      <lineto x="622"
+              y="778" />
+      <lineto x="544"
+              y="778" />
+      <lineto x="544"
+              y="720" />
+    </path>
+    <path name="Fig47.2"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="178 178 178"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="612"
+              y="720" />
+      <lineto x="622"
+              y="730" />
+      <lineto x="612"
+              y="730" />
+      <lineto x="612"
+              y="720" />
+    </path>
+    <group name="Fig47.3"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[546, 722, 65, 0]"
+         href="10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008DB"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig47.3.0"
+        x="546"
+        y="722"
+        width="65"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig47.4"
+      x="546"
+      y="722"
+      width="65"
+      height="55"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Left"
+    >Else 2</text>
+  </group>
+  <group name="Fig48"
+       description="org.argouml.uml.diagram.static_structure.ui.FigEdgeNote"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+      sourcePortFig="Fig47"
+      destPortFig="Fig18"
+      sourceFigNode="Fig47"
+      destFigNode="Fig18"
+    </private>
+    <path name="Fig48.0"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="544"
+              y="752" />
+      <lineto x="456"
+              y="752" />
+    </path>
+  </group>
+  <group name="Fig49"
+       description="org.argouml.uml.diagram.static_structure.ui.FigComment[1, 320, 79, 59]pathVisible=false;stereotypeView=0;"
+       href="10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008DC"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig49.0"
+      x="1"
+      y="320"
+      width="79"
+      height="59"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <path name="Fig49.1"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="1"
+              y="320" />
+      <lineto x="69"
+              y="320" />
+      <lineto x="79"
+              y="330" />
+      <lineto x="79"
+              y="378" />
+      <lineto x="1"
+              y="378" />
+      <lineto x="1"
+              y="320" />
+    </path>
+    <path name="Fig49.2"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="178 178 178"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="69"
+              y="320" />
+      <lineto x="79"
+              y="330" />
+      <lineto x="69"
+              y="330" />
+      <lineto x="69"
+              y="320" />
+    </path>
+    <group name="Fig49.3"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[3, 322, 65, 0]"
+         href="10-10-1-60-68a6cde4:16193c6d885:-8000:00000000000008DC"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig49.3.0"
+        x="3"
+        y="322"
+        width="65"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig49.4"
+      x="3"
+      y="322"
+      width="65"
+      height="55"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Left"
+    >Else 3</text>
+  </group>
+  <group name="Fig50"
+       description="org.argouml.uml.diagram.static_structure.ui.FigEdgeNote"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+      sourcePortFig="Fig49"
+      destPortFig="Fig25"
+      sourceFigNode="Fig49"
+      destFigNode="Fig25"
+    </private>
+    <path name="Fig50.0"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="80"
+              y="330" />
+      <lineto x="160"
+              y="336" />
     </path>
   </group>
 </pgml>

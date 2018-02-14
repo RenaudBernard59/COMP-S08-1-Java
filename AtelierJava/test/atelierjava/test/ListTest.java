@@ -47,11 +47,18 @@ public class ListTest {
     @Test
     public void creerNombresPremiers() {
         ArrayList<Integer> nbList = new ArrayList<>();
-        int i = 2;
-        while (i <= 50){
-         
-            
-        }/*END While i*/
+        for (int i=2;i <= 100;i++){
+            boolean premier = true;
+            for (int j=2; j<i;j++) {
+                if (i%j ==0) {
+                    //NON premier
+                    premier = false;
+                }
+            }
+            if (premier == true) {
+                nbList.add(i);
+            }
+        }/*END For i*/
         System.out.println(nbList);
     }/*END creerNombresPremiers*/
   
