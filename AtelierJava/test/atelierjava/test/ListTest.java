@@ -6,6 +6,7 @@
 package atelierjava.test;
 
 import com.sun.xml.internal.ws.message.stream.StreamAttachment;
+import java.math.BigInteger;
 import java.util.ArrayList;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -64,15 +65,28 @@ public class ListTest {
   
     @Test
     public void factorielle() {
-        int j = 3;
+        int j = 100;
         int facto = 1;
         for (int i = 1;i <= j;i++) {
             facto = facto * i ;
         }
         System.out.println("Facto = " +facto);
-    }
+    }/*END factorielle*/
     
-    
+        @Test
+    public void calculBigFacto() {
+        int j = 50;
+        String strJ = Integer.toString(j);
+        BigInteger bigFacto = new BigInteger(strJ);
+        for (int i = 1;i <= j;i++) {
+            String strI = Integer.toString(i);
+            BigInteger bgI = new BigInteger(strI);
+            bigFacto = bigFacto.add(bgI);
+
+        }/*END For*/
+        System.out.println("BigFacto = " +bigFacto);
+    }/*END calculBigFacto*/
+          
     
     
     
