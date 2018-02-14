@@ -49,26 +49,8 @@ public class ListTest {
         ArrayList<Integer> nbList = new ArrayList<>();
         int i = 2;
         while (i <= 50){
-            int j = 1;
-            while (j <= 50){
-            if (i >=j) {
-                if (j != 2) {
-                    if (i%j !=0) {
-                        if(i == j) {
-                            nbList.add(i);
-                        } else {
-                            j++;
-                        }/*END else4*/
-                    } else {
-                        i++;
-                    }/*END else3*/
-                } else {
-                    j++;
-                }/*END else2*/
-            } else {
-                i++;
-            }/*END else1*/
-            }/*END While j*/
+         
+            
         }/*END While i*/
         System.out.println(nbList);
     }/*END creerNombresPremiers*/
