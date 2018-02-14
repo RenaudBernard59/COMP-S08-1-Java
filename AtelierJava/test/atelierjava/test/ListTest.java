@@ -64,10 +64,10 @@ public class ListTest {
   
     @Test
     public void factorielle() {
-        int j = 10;
+        int j = 3;
         int facto = 1;
-        for (int i = 1;i < j;i++) {
-            facto = facto * i;
+        for (int i = 1;i <= j;i++) {
+            facto = facto * i ;
         }
         System.out.println("Facto = " +facto);
     }
