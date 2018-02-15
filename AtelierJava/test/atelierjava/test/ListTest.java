@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
  */
 public class ListTest {
     
-    @Test
+//    @Test
     public void addAvecIndiceOK() {
         ArrayList<Integer> nombresPremiers = new ArrayList();
         nombresPremiers.add(2);
@@ -31,7 +31,7 @@ public class ListTest {
     
     
     
-    @Test
+//    @Test
     public void addOK() {
         ArrayList<String> capitales = new ArrayList<>();
         
@@ -45,7 +45,7 @@ public class ListTest {
             
     }/*END addOK*/
        
-    @Test
+//    @Test
     public void creerNombresPremiers() {
         ArrayList<Integer> nbList = new ArrayList<>();
         for (int i=2;i <= 100;i++){
@@ -63,7 +63,7 @@ public class ListTest {
         System.out.println(nbList);
     }/*END creerNombresPremiers*/
   
-    @Test
+//    @Test
     public void factorielle() {
         int j = 100;
         int facto = 1;
@@ -73,7 +73,7 @@ public class ListTest {
         System.out.println("Facto = " +facto);
     }/*END factorielle*/
     
-        @Test
+//        @Test
     public void calculBigFacto() {
         int j = 50;
         String strJ = Integer.toString(j);
@@ -87,7 +87,7 @@ public class ListTest {
         System.out.println("BigFacto = " +bigFacto);
     }/*END calculBigFacto*/
           
-    @Test
+//    @Test
     public void removeOK() {
             ArrayList<String> prenoms = new ArrayList();
             prenoms.add("Laura");
@@ -101,6 +101,26 @@ public class ListTest {
                 System.out.println(prenom);
             }
                 
-                    }
+        }/*END RemoveOK*/
+    
+    @Test
+     public void removeAllOK() {
+         ArrayList<String> l1 = new ArrayList();
+         ArrayList<String> l2 = new ArrayList();
+         
+         l1.add("rouge");
+         l1.add("vert");
+         l1.add("jaune");
+         l1.add("rouge");
+         l2.add("rouge");
+         l2.add("jaune");
+         
+         l1.removeAll(l2);
+         
+         for (String liste1 : l1) {
+                System.out.println(liste1);
+            }
+               
+     }/*END RemoveAllOK*/
     
 }/*END ListTest*/
