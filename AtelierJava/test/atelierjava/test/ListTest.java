@@ -87,8 +87,20 @@ public class ListTest {
         System.out.println("BigFacto = " +bigFacto);
     }/*END calculBigFacto*/
           
-    
-    
-    
+    @Test
+    public void removeOK() {
+            ArrayList<String> prenoms = new ArrayList();
+            prenoms.add("Laura");
+            prenoms.add("David");
+            prenoms.add("Goliath");
+            prenoms.add("David");
+            
+            prenoms.remove("David");
+            
+            for (String prenom : prenoms) {
+                System.out.println(prenom);
+            }
+                
+                    }
     
 }/*END ListTest*/
