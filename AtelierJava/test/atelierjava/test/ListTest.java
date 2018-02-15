@@ -112,9 +112,9 @@ public class ListTest {
          l1.add("vert");
          l1.add("jaune");
          l1.add("rouge");
+         
          l2.add("rouge");
          l2.add("jaune");
-         
          l1.removeAll(l2);
          
          for (String liste1 : l1) {
